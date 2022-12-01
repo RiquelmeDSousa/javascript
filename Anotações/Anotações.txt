@@ -1,0 +1,27 @@
+um indentificador
+
+Pode começar com letra, simbolo ou _
+
+Não pode começar com números 
+
+é possivel usar letras ou números
+
+é possivel usar acentos e simbolos 
+
+não podem conter espaços
+
+não podem ser palavras reservadas 
+
+Maiúsculas e Minúsculas fazem diferença 
+
+o + tem a função de fzr a concatenação 
+
+Number.parseInt = Inteiro 
+
+Number.parseFloat = Real
+
+number = ele se vira 
+
+String (n) = ele vira String
+
+N.toString (n) = ele vira String
