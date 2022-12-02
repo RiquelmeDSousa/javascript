@@ -26,5 +26,11 @@ String (n) = ele vira String
 
 N.toString (n) = ele vira String
 
+! = negação 
+&& = conjunção 
+| = disjunção 
 
 
+Primeiro ; não
+depois : ou 
+depois o : e
