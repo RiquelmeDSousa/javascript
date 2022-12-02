@@ -25,3 +25,6 @@ number = ele se vira
 String (n) = ele vira String
 
 N.toString (n) = ele vira String
+
+
+
