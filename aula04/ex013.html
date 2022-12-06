@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Idade </title>
+</head>
+<body>
+    <h1> Qual é sua idade ? </h1>
+    Qual é sua idade: <input type="number" name="idadenxt" id="idadenxt">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular () {
+            var idaden = document.querySelector("input#idadenxt")
+            var res = document.querySelector("div#res");
+            var sufi = Number(idaden.value)
+            res.innerHTML = `<p>Sua idade é <strong> ${sufi} </strong> </p> `;
+            if (sufi >= 18 ) {
+                res.innerHTML += `<p> Voce ja atingiu a maioridade penal </p>`;
+            } else {
+                res.innerHTML += `<p> Voce não atingiu a maioridade penal </p>`;
+            }
+
+        }
+    </script>
+
+
+    
+</body>
+</html>
